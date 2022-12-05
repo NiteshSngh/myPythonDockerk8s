@@ -13,8 +13,8 @@ spec:
         app: my-python-app
     spec:
       containers:
-      - name: myPythonDockerk8s
-        image: acrimage.azurecr.io/niteshsingh/myPythonDockerk8s:#{Build.BuildId}#
+      - name: acrimage
+        image: acrimage.azurecr.io/niteshsingh/myPythonDockerk8s
         ports:
         - containerPort: 5000
 # service type loadbalancer       
